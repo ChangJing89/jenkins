@@ -1,7 +1,7 @@
 pipeline {
     agent {
     docker 'maven:3.3.3'
-    }  # jenkins为流水线分配一个执行器和工作区
+    }  // jenkins为流水线分配一个执行器和工作区
 
     stages {
         stage('Build') {
